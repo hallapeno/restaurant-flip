@@ -52,10 +52,7 @@
         </div> <!-- close col -->
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <a href="http://www.seoultaco.com/">
-              <img class="img-responsive" src="http://placehold.it/350">
-            </a>
-            
+            <img class="img-responsive" src="http://placehold.it/350">
             <div class="caption">
               <h3>Seoul Taco</h3>
               
