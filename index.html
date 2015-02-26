@@ -18,7 +18,39 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  
   <body>
+
+<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Seoul Q</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#seoultaco">Seoul Taco</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Appetizers</a></li>
+                <li><a href="#">Barbecue</a></li>
+                <li><a href="#">Drinks</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
     <div class="container">
       <div class="row">
         <div class="jumbotron col-md-12">
@@ -45,15 +77,15 @@
             </a>
             
             <div class="caption">
-              <h3>Location & Hours</h3>
+              <h3>About</h3>
               
             </div>
           </div> <!-- close thumb -->
         </div> <!-- close col -->
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <a href="http://www.seoultaco.com/">
-              <img class="img-responsive" src="http://placehold.it/350">
+            <a id="logo" class="logo" href="http://www.seoultaco.com">
+              <img src="http://www.seoultaco.com/Web-Logo.png" alt="Logo" id="logo" class="logo" style="margin-top:25px; ">
             </a>
             
             <div class="caption">
@@ -68,26 +100,11 @@
     </div> <!-- close container -->
 
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">6665 DELMAR, BLVD UNIVERSITY CITY, MO 63130</p>
       </div>
-      <div class="modal-body">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut ipsum vel ipsum gravida malesuada sit amet eget elit. Proin id pulvinar neque. Maecenas sed iaculis libero. Sed lacinia magna non feugiat vestibulum. Donec imperdiet efficitur nunc, ac semper magna euismod sed. Phasellus fringilla id nibh id ultrices. Integer lacinia faucibus sem in eleifend. Nam pulvinar libero velit, non suscipit dolor ultricies quis.</p>
-
-          <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis laoreet mattis neque nec fringilla. Aliquam eleifend ultrices lacus, volutpat dignissim mi mollis et. Cras id urna eget dolor laoreet sollicitudin. Duis sit amet tristique dolor. Nullam dapibus elit ut velit interdum pulvinar. Vestibulum convallis placerat odio, sed tempus justo lacinia ut. Praesent at commodo lectus. Proin imperdiet ultrices lectus. In imperdiet molestie imperdiet. Vivamus mollis libero bibendum justo condimentum, vel ultrices tellus efficitur. Aenean non rhoncus felis. Sed semper nunc lobortis accumsan pellentesque. Morbi ac luctus sem.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+    </footer>
 
 
 
