@@ -1,3 +1,17 @@
 body {
     padding-top: 50px;
 }
+
+.thumbnail a p {
+  position: absolute;
+  top: 5px;
+  width: 350px;
+  height: 350px;
+  background: rgba(255, 0, 0, .4);
+  text-align: center;
+  opacity: 0;
+}
+
+.thumbnail a:hover p {
+  opacity: 1;
+}
