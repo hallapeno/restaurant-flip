@@ -1,17 +1,47 @@
 body {
-    padding-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    background-color: #FF1C37;
+}
+
+h2 p {
+  color:white;
+}
+
+.navbar {
+  background-color: #3B24D1;
+  color: white;
+}
+
+.navbar-brand a {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #FF822D;
 }
 
 .thumbnail a p {
   position: absolute;
   top: 5px;
   width: 350px;
-  height: 350px;
-  background: rgba(255, 0, 0, .4);
+  height: 233px;
+  background: rgba(255, 130, 45, .5);
   text-align: center;
+  vertical-align: middle;
   opacity: 0;
 }
 
 .thumbnail a:hover p {
   opacity: 1;
+}
+
+p.hover_text {
+	font-family: helvetica;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 3em;
+	color: white;
+	padding-top: 85px;
+	font-weight: 2000;
 }
